@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+:root{
+    --mainColor: #3461FF;
+    --mainColorLighter: #4f71ef;
+    --lighterBlue: #C3E2FF;
+    --secondaryColor: #FACA4E;
+    --textColor: rgb(255, 255, 255);
+    --hoverBlue: #204be8;
+}
+
+/* box-float flex items-center p-20 border-7 border-black bg-lighter-blue */
+.about-us-container {
+    display: flex;
+    align-items: center;
+    padding:5rem;
+    border: solid black 7px;
+    background-color: var(--lighterBlue);
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 1.5 rem;
+    max-width: 50%;
+}
+
+/* pb-10 pt-10 text-right text-black text-7xl font-bold pb-5 */
+.about-us-title {
+    padding: 2.5rem;
+    padding-bottom: 0rem;
+    padding-right: 0rem;
+    text-align: right;
+    color: black;
+    font-size: 3.7rem;
+    font: bold;
+}
+
+/* pl-15 pb-10 text-right text-2xl */
+.about-us-para {
+    padding: 2.5 rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    text-align: right;
+    font-size: 1.2rem;
+    color: black;
+}
+
+/* btn-float py-4 px-32 text-2xl mr-auto font-bold text-white border-5 bg-main-blue border-black inline-block leading-tight shadow-md hover:bg-hover-blue hover:shadow-lg focus:bg-hover-blue focus:shadow-lg focus:outline-none focus:ring-0 active:bg-hover-blue active:shadow-lg transition duration-150 ease-in-out */
+.about-us-btn {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    background-color: rgb(57, 143, 249);
+    border: solid black 5px;
+    border-radius: 5rem;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us-btn:hover{
+    background-color: rgb(105, 165, 239);
+    transform: scale(1.025);
+}
+
+.about-us-btn-box{
+    text-align: right;
+}
+
+.team-pic {
+    width: 30%;
+    height: auto;
+}
+
+@media only screen and  (max-width: 1024px){
+    .about-us-container {
+        display: flex;
+        flex-direction: column;
+        padding:1.4rem;
+    }
+
+    .about-us-title {
+        text-align: center;
+        padding:0;
+    }
+
+    .about-us-para {
+        text-align: center;
+        padding:0;
+        padding-bottom: 2.5rem;
+    }
+
+    .text-box {
+        max-width: 100%;
+    }
+
+    .about-us-btn-box{
+        text-align: center;
+    }
+}
+
+/* club initiative stuff */
+.init-outer{
+    margin: 0;
+    padding: 0;
+    border: solid black 7px;
+}
+
+.init-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: var(--secondaryColor); */
+    flex-wrap: wrap;
+}

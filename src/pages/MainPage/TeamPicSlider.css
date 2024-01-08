@@ -1,0 +1,34 @@
+/* rounded-3xl border-7 border-white */
+
+.team-pic-box {
+    width: 50%;
+    height: auto;
+    padding: 12px;
+    border-radius: 10px;
+    background-color:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.team-pic-edit {
+    width: 100%;
+    border: solid 1px white;
+    border-radius: 10px;
+    transition: 300ms transform ease-in-out;
+}
+
+.team-pic-edit:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+@media only screen and  (max-width: 1024px){
+    .team-pic-box{
+        width: 70%;
+        min-width: 319px;
+        height: auto;
+    }
+    .team-pic-edit{
+        min-width: 295px;
+        height: auto;
+    }
+}

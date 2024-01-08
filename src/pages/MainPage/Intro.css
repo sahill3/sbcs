@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+:root{
+    --mainColor: #3461FF;
+    --mainColorLighter: #4f71ef;
+    --secondaryColor: #FACA4E;
+    --textColor: rgb(255, 255, 255);
+}
+
+.computer-logo {
+    /* margin: 4rem; */
+    width: 130%;
+    min-width: 133.74px;
+    min-height: 133.74px;
+    max-width: 450px;
+    height: auto;
+
+    animation-name: floating-logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating-logo {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, -15px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+/* flex items-center py-12 px-20 bg-main-blue mt-3 border-7 border-black border-r-main-blue */
+.outer {
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var(--mainColor);
+    border: solid black 7px;
+}
+
+.moving-container{
+    display: flex;
+    align-items: center;
+}
+
+/* flex flex-col justify-start p-10 */
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2.5rem;
+}
+
+.get-involved-btn {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    background-color: #8c8c8c;
+    border: solid black 5px;
+    border-radius: 10px;
+    margin-top:5px;
+    width: 12rem;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.get-involved-btn:hover{
+    background-color: #979ca8;
+    transform: scale(1.025);
+}
+
+/* text-left pb-5 text-7xl font-normal text-lighter-gray */
+.sbcs-intro{
+    text-align: left;
+    padding: 1rem;
+    font-size: 5.3rem;
+    color:#eae4e4;
+    font-weight:lighter;
+    line-height: normal;
+    padding-left: 0;
+}
+
+.sbcs-intro-bold{
+    font-weight: bold;
+}
+
+/* text-left pb-5 pr-20 text-2xl text-base font-normal text-lighter-gray */
+.sbcs-description{
+    text-align: left;
+    padding: 1rem;
+    padding-left: 0;
+    font-size: 1.3rem;
+    color:#c0c3ca;
+    font-weight:normal;
+    line-height: normal;
+}
+
+
+/* Use Media Query to add a breakpoint at 800px: */
+@media only screen and (max-width:860px) {
+    .computer-logo {
+        display:none;
+    }
+
+    .intro-text{
+        padding-left: 0rem;
+    }
+
+    .sbcs-intro{
+        padding: 0rem;
+        font-size:3.6rem;
+    }
+
+    .outer {
+        padding-left: 3rem;
+    }
+    
+}
