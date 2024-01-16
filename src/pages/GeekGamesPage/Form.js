@@ -16,7 +16,7 @@ const TallyFormComponent = () => {
 
   return (
     <div className="tally-form">
-      <iframe data-tally-src="https://tally.so/embed/mK1v9V?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="2816" frameborder="0" marginheight="0" marginwidth="0" title="Registration"></iframe>
+      <iframe data-tally-src="https://tally.so/embed/mK1v9V?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="90%" height="2816" frameborder="0" marginheight="0" marginwidth="0" title="Registration"></iframe>
       <Helmet>
         <script>
           {`
