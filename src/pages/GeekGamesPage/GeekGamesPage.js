@@ -42,7 +42,7 @@ function GeekGames() {
           </p>
           <Timer></Timer>
           <p className="geek-games-venue">
-            Friday, March 22, 2024 @ SAC Ballroom B 3PM
+            Friday, March 22, 2024 @ SAC Ballroom B, 3PM
           </p>
         </div>
 
