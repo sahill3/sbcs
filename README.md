@@ -5,9 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Install Important packages
 
 First command should be:
-```bash
-npm install
-```
+### `npm install`
 
 ## Available Scripts
 
