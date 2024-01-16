@@ -5,6 +5,7 @@ import img from "./gg-title.png";
 import Timer from "./CountDown";
 import Form from "./Form";
 import React, { useEffect } from "react";
+import ConnectCodeCompete from "./connect-code-compete.png"
 
 function GeekGames() {
   useEffect(() => {
@@ -46,10 +47,12 @@ function GeekGames() {
         </div>
 
         <div className="geek-games-form">
-          <p className="geeks-form-title">Registration:</p>
           <Form></Form>
         </div>
         {/* need the footer */}
+        <div className="connect-code-compete">
+          <img src={ConnectCodeCompete}></img>
+        </div>
         <hr className="footer-line"></hr>
         <Footer></Footer>
       </div>
