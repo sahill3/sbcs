@@ -2,18 +2,19 @@ import './Footer.css';
 import { FaFacebook, FaInstagram, FaDiscord } from 'react-icons/fa';
 
 
-function Footer(){
+function Footer() {
     return (
+
         <div className="footer-container">
             <div className="footer-box">
                 <h4 className="footer-club-name">Stony Brook Computing Society</h4>
-                
+
 
                 <h4>College of Engineering & Applied Sciences, 231 Engineering
-Stony Brook, NY 11794-2200</h4>
+                    Stony Brook, NY 11794-2200</h4>
                 <h4>sbcomputingsociety@cs.stonybrook.edu</h4>
 
-                
+
 
                 <ul className="social">
                     <li className="social-logo-box"><a className="social-logo" href="https://www.facebook.com/groups/sbucomputingsociety/permalink/10159596114895984/"><FaFacebook></FaFacebook></a></li>
@@ -24,7 +25,7 @@ Stony Brook, NY 11794-2200</h4>
                 <div className="footer-bottom">
                     <p>copyright &copy;2023, made with <span className="heart">&hearts;</span> by <span>The SBCS Team</span>.</p>
                 </div>
-                
+
             </div>
         </div>
 

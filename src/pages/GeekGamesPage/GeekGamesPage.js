@@ -49,8 +49,8 @@ function GeekGames() {
           <p className="geeks-form-title">Registration:</p>
           <Form></Form>
         </div>
-
         {/* need the footer */}
+        <hr className="footer-line"></hr>
         <Footer></Footer>
       </div>
     </div>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 #container {
   margin-top: 50px;
@@ -10,19 +10,22 @@
 
   font-size: 4rem;
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 0;
   animation: glitch1 2.5s infinite;
+  font-weight: 1000;
 }
 
 .geek-games-timer:nth-child(2) {
   color: #67f3da;
   animation: glitch2 2.5s infinite;
+  font-weight: bolder;
 }
 
 .geek-games-timer:nth-child(3) {
   color: #f16f6f;
   animation: glitch3 2.5s infinite;
+  font-weight: bolder;
 }
 
 @keyframes glitch1 {
