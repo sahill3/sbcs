@@ -54,16 +54,16 @@ const CountDown = () => {
   return (
     <div id="container">
       <p className="geek-games-timer">
-        {countdown.days}D : {countdown.hours}H : {countdown.minutes}M :{" "}
-        {countdown.seconds}S
+        {countdown.days}D : {countdown.hours}H <span className="hideMinutes">: {countdown.minutes}M :{" "}
+          {countdown.seconds}S</span>
       </p>
       <p className="geek-games-timer">
-        {countdown.days}D : {countdown.hours}H : {countdown.minutes}M :{" "}
-        {countdown.seconds}S
+        {countdown.days}D : {countdown.hours}H <span className="hideMinutes">: {countdown.minutes}M :{" "}
+          {countdown.seconds}S</span>
       </p>
       <p className="geek-games-timer">
-        {countdown.days}D : {countdown.hours}H : {countdown.minutes}M :{" "}
-        {countdown.seconds}S
+        {countdown.days}D : {countdown.hours}H <span className="hideMinutes">: {countdown.minutes}M :{" "}
+          {countdown.seconds}S</span>
       </p>
     </div>
   );

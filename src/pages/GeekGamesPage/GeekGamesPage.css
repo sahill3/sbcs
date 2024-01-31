@@ -78,10 +78,29 @@
 .footer-line {
   width: 30%;
   margin: 0 auto;
-  margin-top: -80px !important;
+  margin-top: 0;
 }
 
 .connect-code-compete {
-  width: 50%;
+  width: 35em;
   margin: 0 auto;
+  margin-bottom: -20px;
+}
+
+@media (max-width: 850px) {
+  .connect-code-compete {
+    width: 25em;
+  }
+}
+
+@media (max-width: 500px) {
+  .connect-code-compete {
+    width: 20em;
+  }
+}
+
+@media (max-width: 350px) {
+  .connect-code-compete {
+    width: 15em;
+  }
 }

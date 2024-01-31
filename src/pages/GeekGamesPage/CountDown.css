@@ -3,28 +3,30 @@
 #container {
   margin-top: 50px;
   margin-bottom: 100px;
+  width: 100%;
+
 }
 
 .geek-games-timer {
   text-align: center;
 
-  font-size: 4rem;
+  font-size: 4em;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   line-height: 0;
-  animation: glitch1 2.5s infinite;
+  animation: glitch1 10s infinite;
   font-weight: 1000;
 }
 
 .geek-games-timer:nth-child(2) {
   color: #67f3da;
-  animation: glitch2 2.5s infinite;
+  animation: glitch2 10s infinite;
   font-weight: bolder;
 }
 
 .geek-games-timer:nth-child(3) {
   color: #f16f6f;
-  animation: glitch3 2.5s infinite;
+  animation: glitch3 10s infinite;
   font-weight: bolder;
 }
 
@@ -227,4 +229,15 @@
     transform: none;
     opacity: 0.25;
   }
+}
+
+@media (max-width: 850px) {
+  .hideMinutes {
+    display: none;
+  }
+
+  .geek-games-timer {
+    font-size: 3em;
+  }
+
 }
