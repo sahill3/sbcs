@@ -18,7 +18,7 @@ function GeekNavBar() {
         src="logos/sbcs-web-logo-b-removebg-preview.png"
         alt="logo"
       ></img>
-      <nav ref={navRef} className="geek-games-nav class">
+      <nav ref={navRef} >
         <Link to="/#">Home</Link>
         <Link to="/team">Team</Link>
         <Link to="/eventpage">Events</Link>

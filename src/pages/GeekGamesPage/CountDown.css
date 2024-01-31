@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 
 #container {
   margin-top: 50px;
   margin-bottom: 100px;
   width: 100%;
-
 }
 
 .geek-games-timer {
   text-align: center;
   font-size: 4em;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 0;
   animation: glitch1 10s infinite;
   font-weight: 1000;
@@ -238,5 +237,4 @@
   .geek-games-timer {
     font-size: 4em;
   }
-
 }

@@ -5,7 +5,7 @@ import img from "./gg-title.png";
 import Timer from "./CountDown";
 import Form from "./Form";
 import React, { useEffect } from "react";
-import ConnectCodeCompete from "./connect-code-compete.png"
+import ConnectCodeCompete from "./connect-code-compete.png";
 
 function GeekGames() {
   useEffect(() => {
