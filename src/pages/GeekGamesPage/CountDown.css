@@ -9,7 +9,6 @@
 
 .geek-games-timer {
   text-align: center;
-
   font-size: 4em;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -237,7 +236,7 @@
   }
 
   .geek-games-timer {
-    font-size: 3em;
+    font-size: 4em;
   }
 
 }

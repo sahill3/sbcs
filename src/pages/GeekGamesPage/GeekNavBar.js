@@ -12,13 +12,13 @@ function GeekNavBar() {
   };
 
   return (
-    <header id="geeknav">
+    <header className="geeknav">
       <img
         className="logo"
         src="logos/sbcs-web-logo-b-removebg-preview.png"
         alt="logo"
       ></img>
-      <nav ref={navRef}>
+      <nav ref={navRef} className="geek-games-nav class">
         <Link to="/#">Home</Link>
         <Link to="/team">Team</Link>
         <Link to="/eventpage">Events</Link>

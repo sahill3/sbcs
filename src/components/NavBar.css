@@ -60,7 +60,7 @@ header .nav-btn {
 
 
 
-@media only screen and  (max-width: 1024px){
+@media only screen and  (max-width: 1096px){
     header .nav-btn {
         visibility: visible;
         margin-right: 2rem;
