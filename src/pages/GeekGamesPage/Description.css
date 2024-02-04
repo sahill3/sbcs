@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+
+
+.desc-body .mid{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 2px solid #fff;
+}
+
+.desc-body .small{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid #7d7b7b;
+}
+
+.desc-body h1{
+    font-size: 3em;
+    font-family: "raleway", "Inter", "sans-serif";
+    color: #fff;
+    text-align: center;
+}
+
+.g1 h2{
+    font-size: 1.5em;
+    font-family: "raleway", "Inter", "sans-serif";
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.g1 p{
+    color: #fff;
+    font-size: 1em;
+    font-family: "Inter";
+    font-weight: 300;
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+
+

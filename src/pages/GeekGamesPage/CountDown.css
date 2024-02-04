@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 
 #container {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 1rem;
+  /* margin-bottom: 100px; */
   width: 100%;
 }
 
@@ -14,6 +14,10 @@
   line-height: 0;
   animation: glitch1 10s infinite;
   font-weight: 1000;
+}
+
+.geek-games-timer span{
+  font-family: "Raleway", sans-serif;
 }
 
 .geek-games-timer:nth-child(2) {
@@ -235,6 +239,6 @@
   }
 
   .geek-games-timer {
-    font-size: 2.5em;
+    font-size: 2.3em;
   }
 }

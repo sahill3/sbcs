@@ -1,6 +1,7 @@
 import "./GeekGamesPage.css";
 import NavBar from "./GeekNavBar";
 import Footer from "../../components/Footer";
+import Desc from "./Description"
 import img from "./gg-title.png";
 import Timer from "./CountDown";
 import Form from "./Form";
@@ -44,6 +45,10 @@ function GeekGames() {
           <p className="geek-games-venue">
             Friday, March 22, 2024 @ SAC Ballroom B, 3PM
           </p>
+        </div>
+
+        <div className="games-desc">
+          <Desc></Desc>
         </div>
 
         <div className="geek-games-form">

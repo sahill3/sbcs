@@ -61,6 +61,11 @@
   font-size: 2rem;
   font-family: "Inter", sans-serif;
   font-weight: 300;
+  padding-top: 5rem;
+}
+
+.games-desc{
+  padding: 2.5rem 4rem;
 }
 
 .geeks-form-title {
@@ -71,7 +76,7 @@
 }
 
 .geek-games-form {
-  margin-top: 100px;
+  margin-top: 1rem;
   margin-left: 10%;
 }
 
@@ -104,3 +109,19 @@
     width: 15em;
   }
 }
+
+@media (max-width: 850px) {
+
+  .wrapper {
+    padding: 2rem;
+    padding-top: 1rem;
+  }
+
+  .geek-games-venue {
+    font-size: 1.8rem;
+  }
+
+  .games-desc{
+    padding: 2.5rem 2rem;
+  }
+} 
